@@ -1,0 +1,12 @@
+# Python virtual environment
+venv/
+
+# Data folder
+data_fields/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
