@@ -171,14 +171,11 @@ def lorentz_force(U, t, e, b, extends):
     vx,vy,vz=U[3],U[4],U[5]    
     position=[x,y,z]
     
-
     e = int_field(e,position,extends)
     b = int_field(b,position,extends)
     
-    
     ex,ey,ez=e[0],e[1],e[2]
-    bx,by,bz=b[0],b[1],b[2]
-    print("Ex ",type(ex))
+    bx,by,bz=b[0],b[1],b[2]    
 
     u=U*0
     u[0]=vx ## Vx
